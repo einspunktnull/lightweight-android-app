@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- LAYOUT -->
+    <string name="prfStartDateSummary">Startdatum festlegen</string>
+    <string name="prfStartDateTitle">Startdatum</string>
+    <string name="prfStartDateDialogMessage">Startdatum bitte festlegen</string>
+    <string name="prfStartDateDialogTitle">Startdatum</string>
+    <string name="prfDailyFatPointsTitle">Fett pro Tag</string>
+    <string name="prfDailyFatPointsSummary">Fett pro Tag</string>
+    <string name="prfDailyFatPointsStepsTitle">Fett Einheit</string>
+    <string name="prfDailyFatPointsStepsSummary">Fett Einheit</string>
+    <string name="prfDailyCarbPointsTitle">Kohlenhydrat pro Tag</string>
+    <string name="prfDailyCarbPointsSummary">Kohlenhydrat pro Tag</string>
+    <string name="prfDailyCarbPointsStepsTitle">Kohlenhydrat Einheit</string>
+    <string name="prfDailyCarbPointsStepsSummary">Kohlenhydrat Einheit</string>
+    <string name="prfDailyWaterPointsTitle">Wasser pro Tag</string>
+    <string name="prfDailyWaterPointsSummary">Wasser pro Tag</string>
+    <string name="prfDailyWaterPointsStepsTitle">Wasser Einheit</string>
+    <string name="prfDailyWaterPointsStepsSummary">Wasser Einheit</string>
+    <string name="prfDailySportPointsTitle">Sport pro Tag</string>
+    <string name="prfDailySportPointsSummary">Sport pro Tag</string>
+    <string name="prfDailySportPointsStepsTitle">Sport Einheit</string>
+    <string name="prfDailySportPointsStepsSummary">Sport Einheit</string>
+
+    <!-- VALUES -->
+    <string name="prfDefValStartDate">2013.04.19</string>
+    <string name="prfDefValDailyFatPoints">17</string>
+    <string name="prfDefValDailyFatPointsSteps">1</string>
+    <string name="prfDefValDailyCarbPoints">24</string>
+    <string name="prfDefValDailyCarbPointsSteps">1</string>
+    <string name="prfDefValDailyWaterPoints">1500</string>
+    <string name="prfDefValDailyWaterPointsSteps">100</string>
+    <string name="prfDefValDailySportPoints">60</string>
+    <string name="prfDefValDailySportPointsSteps">10</string>
+
+    <!-- PRFERENCES KEYS -->
+    <string name="PREF_KEY_START_DATE">START_DATE</string>
+    <string name="PREF_KEY_DAILY_FAT_POINTS">DAILY_FAT_POINTS</string>
+    <string name="PREF_KEY_DAILY_FAT_POINTS_STEPS">DAILY_FAT_POINTS_STEPS</string>
+    <string name="PREF_KEY_DAILY_CARB_POINTS">DAILY_CARB_POINTS</string>
+    <string name="PREF_KEY_DAILY_CARB_POINTS_STEPS">DAILY_CARB_POINTS_STEPS</string>
+    <string name="PREF_KEY_DAILY_WATER_POINTS">DAILY_WATER_POINTS</string>
+    <string name="PREF_KEY_DAILY_WATER_POINTS_STEPS">DAILY_WATER_POINTS_STEPS</string>
+    <string name="PREF_KEY_DAILY_SPORT_POINTS">DAILY_SPORT_POINTS</string>
+    <string name="PREF_KEY_DAILY_SPORT_POINTS_STEPS">DAILY_SPORT_POINTS_STEPS</string>
+
+</resources>

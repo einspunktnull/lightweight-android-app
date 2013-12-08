@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <net.einspunktnull.android.preference.DatePickerPreference
+        android:defaultValue="@string/prfDefValStartDate"
+        android:key="@string/PREF_KEY_START_DATE"
+        android:summary="@string/prfStartDateSummary"
+        android:title="@string/prfStartDateTitle" />
+
+    <EditTextPreference
+        android:defaultValue="@string/prfDefValDailyFatPoints"
+        android:key="@string/PREF_KEY_DAILY_FAT_POINTS"
+        android:summary="@string/prfDailyFatPointsSummary"
+        android:title="@string/prfDailyFatPointsTitle" />
+    <EditTextPreference
+        android:defaultValue="@string/prfDefValDailyFatPointsSteps"
+        android:key="@string/PREF_KEY_DAILY_FAT_POINTS_STEPS"
+        android:summary="@string/prfDailyFatPointsStepsSummary"
+        android:title="@string/prfDailyFatPointsStepsTitle" />
+    <EditTextPreference
+        android:defaultValue="@string/prfDefValDailyCarbPoints"
+        android:key="@string/PREF_KEY_DAILY_CARB_POINTS"
+        android:summary="@string/prfDailyCarbPointsSummary"
+        android:title="@string/prfDailyCarbPointsTitle" />
+    <EditTextPreference
+        android:defaultValue="@string/prfDefValDailyCarbPointsSteps"
+        android:key="@string/PREF_KEY_DAILY_CARB_POINTS_STEPS"
+        android:summary="@string/prfDailyCarbPointsStepsSummary"
+        android:title="@string/prfDailyCarbPointsStepsTitle" />
+    <EditTextPreference
+        android:defaultValue="@string/prfDefValDailyWaterPoints"
+        android:key="@string/PREF_KEY_DAILY_WATER_POINTS"
+        android:summary="@string/prfDailyWaterPointsSummary"
+        android:title="@string/prfDailyWaterPointsTitle" />
+    <EditTextPreference
+        android:defaultValue="@string/prfDefValDailyWaterPointsSteps"
+        android:key="@string/PREF_KEY_DAILY_WATER_POINTS_STEPS"
+        android:summary="@string/prfDailyWaterPointsStepsSummary"
+        android:title="@string/prfDailyWaterPointsStepsTitle" />
+    <EditTextPreference
+        android:defaultValue="@string/prfDefValDailySportPoints"
+        android:key="@string/PREF_KEY_DAILY_SPORT_POINTS"
+        android:summary="@string/prfDailySportPointsSummary"
+        android:title="@string/prfDailySportPointsTitle" />
+    <EditTextPreference
+        android:defaultValue="@string/prfDefValDailySportPointsSteps"
+        android:key="@string/PREF_KEY_DAILY_SPORT_POINTS_STEPS"
+        android:summary="@string/prfDailySportPointsStepsSummary"
+        android:title="@string/prfDailySportPointsStepsTitle" />
+
+</PreferenceScreen><!--
+    <PreferenceCategory
+        android:key="first_category"
+        android:title="First Category" >
+
+       
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="perform_updates"
+            android:summary="Enable or disable data updates"
+            android:title="Enable updates" />
+
+        <ListPreference
+            android:defaultValue="1000"
+            android:dependency="perform_updates"
+            android:entries="@array/updateInterval"
+            android:entryValues="@array/updateIntervalValues"
+            android:key="updates_interval"
+            android:summary="Define how often updates will be performed"
+            android:title="Updates interval" />
+        
+        
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="second_category"
+        android:title="Second Category" >
+
+        <EditTextPreference
+            android:defaultValue="Default welcome message"
+            android:dialogMessage="Provide a message"
+            android:dialogTitle="Welcome Message"
+            android:key="welcome_message"
+            android:summary="Define the Welcome message to be shown"
+            android:title="Welcome Message" />
+    </PreferenceCategory>
+-->
+

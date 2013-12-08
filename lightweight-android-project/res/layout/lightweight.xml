@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="fill_parent">
+
+	<TableLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:stretchColumns="1">
+
+		<TableRow android:layout_width="fill_parent"
+			android:layout_marginTop="5dip">
+
+			<Button android:id="@+id/btnDatePrevious"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="@string/btnDatePrevious">
+			</Button>
+
+			<Button android:id="@+id/btnDateToday" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/btnDateToday">
+			</Button>
+
+			<Button android:id="@+id/btnDateNext" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/btnDateNext">
+			</Button>
+		</TableRow>
+
+		<TableRow android:layout_width="fill_parent"
+			android:layout_marginTop="20dip">
+
+			<TextView android:id="@+id/txtDate" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_gravity="center"
+				android:layout_span="3" android:text="@string/txtDate">
+			</TextView>
+		</TableRow>
+
+        <!-- FETT -->
+
+		<TableRow android:layout_width="fill_parent"
+			android:layout_marginTop="30dip">
+
+			<Button android:id="@+id/btnFatMinus" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/btnMinus">
+			</Button>
+
+			<TextView android:id="@+id/txtFat" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_gravity="center"
+				android:gravity="center" android:text="@string/txtFat">
+			</TextView>
+
+			<Button android:id="@+id/btnFatPlus" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/btnPlus">
+			</Button>
+		</TableRow>
+
+        <!-- KOHLENHYDRATE -->
+
+		<TableRow android:layout_width="fill_parent"
+			android:layout_marginTop="8dip">
+
+			<Button android:id="@+id/btnCarbMinus" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/btnMinus">
+			</Button>
+
+			<TextView android:id="@+id/txtCarb" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_gravity="center"
+				android:gravity="center" android:text="@string/txtCarb">
+			</TextView>
+
+			<Button android:id="@+id/btnCarbPlus" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/btnPlus">
+			</Button>
+		</TableRow>
+
+        <!-- WASSER -->
+
+		<TableRow android:layout_width="fill_parent"
+			android:layout_marginTop="8dip">
+
+			<Button android:id="@+id/btnWaterMinus" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/btnMinus">
+			</Button>
+
+			<TextView android:id="@+id/txtWater" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_gravity="center"
+				android:gravity="center" android:text="@string/txtWater">
+			</TextView>
+
+			<Button android:id="@+id/btnWaterPlus" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/btnPlus">
+			</Button>
+		</TableRow>
+        
+        <!-- SPORT -->
+
+		<TableRow android:layout_width="fill_parent"
+			android:layout_marginTop="8dip">
+
+			<Button android:id="@+id/btnSportMinus" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/btnMinus">
+			</Button>
+
+			<TextView android:id="@+id/txtSport" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_gravity="center"
+				android:gravity="center" android:text="@string/txtSport">
+			</TextView>
+
+			<Button android:id="@+id/btnSportPlus" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/btnPlus">
+			</Button>
+		</TableRow>
+        
+        
+        <!-- GEWICHT -->
+
+		<TableRow android:layout_width="fill_parent"
+			android:layout_marginTop="8dip">
+
+			<Button android:id="@+id/btnWeightMinus" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/btnMinus">
+			</Button>
+
+			<Button android:id="@+id/btnWeight"  android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/txtWeight"
+				android:layout_gravity="center" android:gravity="center">
+			</Button>
+
+			<Button android:id="@+id/btnWeightPlus" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/btnPlus">
+			</Button>
+		</TableRow>
+
+
+
+
+
+	</TableLayout>
+
+</ScrollView>

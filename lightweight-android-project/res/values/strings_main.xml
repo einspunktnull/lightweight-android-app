@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- GENERAL -->
+    <string name="app_dateFormat">dd.MM.yyyy</string>
+    <!-- LAYOUT -->
+    <string name="app_name">Lightweight</string>
+    <string name="btnDatePrevious">vorher</string>
+    <string name="btnDateToday">heute</string>
+    <string name="btnDateNext">nachher</string>
+    <string name="txtDate">Datum</string>
+    <string name="btnMinus">-</string>
+    <string name="btnPlus">+</string>
+    <string name="btnUpdate">Update</string>
+    <string name="txtFat">Fett\n7/13 | 6</string>
+    <string name="txtCarb">Kohlenhydrate\n7/24 | 1</string>
+    <string name="txtWater">Wasser\n400/1500 | 1100</string>
+    <string name="txtSport">Sport\n10/60 | 50</string>
+    <string name="txtWeight">85 kg</string>
+
+    <!-- MENU -->
+    <string name="menuItemPrefs">Einstellungen</string>
+    <string name="menuItemResetAndInit">Reset u. Initialisierung</string>
+
+    <!-- INIT/RESET DIALOG -->
+    <string name="dlgResetInitMsg">Wirklich alle Einträge Löschen und erneut Initalisieren?</string>
+    <string name="dlgResetInitYes">Ja</string>
+    <string name="dlgResetInitNo">Nein</string>
+
+</resources>
